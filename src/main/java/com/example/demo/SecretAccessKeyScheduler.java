@@ -9,6 +9,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 public class SecretAccessKeyScheduler {
     @Scheduled(fixedRate = 5000)
     public void printSecretAccessKey() {
-        System.out.println("Trying to use Secret Access Key *");
+        System.out.println("Showing a example of http:-outgoing-1012 << <SecretAccessKey>dafjklSDKJLDjkladfSKJLSFkl</SecretAccessKey> [\n]");
     }
 }
